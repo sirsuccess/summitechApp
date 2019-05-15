@@ -9,7 +9,7 @@ import React, { Component } from "react";
 import Slider from "./Slider/Slider";
 import Profile from "./Profile"
 import Modal from "./modal/Modal"
-// import AlertButton from "./AlertButton"
+import Navbar from "./Navbar/Navbar"
 
 class Main extends Component {
   state = {
@@ -18,8 +18,9 @@ class Main extends Component {
   render() {
     return (
       <div>
+        <Navbar/>
         <Slider />
-        <div className="mainDiv m-r-5">
+        <div className="mainDiv">
           <Profile />
           <Modal/>
           </div>
