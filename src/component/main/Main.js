@@ -10,6 +10,7 @@ import Slider from "./Slider/Slider";
 import Profile from "./Profile"
 import Modal from "./modal/Modal"
 import Navbar from "./Navbar/Navbar"
+import Poki from "./Slider/SliderAPI"
 
 class Main extends Component {
   state = {
@@ -24,6 +25,7 @@ class Main extends Component {
           <Profile />
           <Modal/>
           </div>
+          <Poki />
           
         </div>
           )
