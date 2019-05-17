@@ -18,10 +18,10 @@ code {
   display: flex;
   width: 100%;
   align-content: space-between;
-margin-left: 200px;
+margin-left: 50px;
 margin-top: 30px;
 }
-li{
+.mainDiv li{
   width: 800px;
   margin-bottom: 20px;
   padding-top: 30px;
